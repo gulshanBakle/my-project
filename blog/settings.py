@@ -55,7 +55,8 @@ ROOT_URLCONF = 'blog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [ '/Users/asus/.anaconda/navigator/djangoprojects/demo/template/'
+                ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
